@@ -1,0 +1,85 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+*{
+    font-family: "figtree";
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%) ;
+    width: 350px;
+    height: 500px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 0px black;
+}
+.photo{
+    border-radius: 10px;
+    padding-left: 3px;
+}
+
+.Learning{
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 800 ;
+    margin-top: 20px;
+
+}
+.Published_date{
+    font-size: 15px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 7%);
+}
+.title{
+    margin-top: 22px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.title:hover{
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.desc{
+    margin-top: 22px;
+    color:  hsl(0, 0%, 42%);
+}
+
+.author{
+    margin-top: 22px;
+}
+.author_photodiv{
+    display: inline-block;
+
+}
+.author_photo{
+    width: 40px;
+}
+.author_namediv{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+.author_name{
+    padding-top: 8px;
+    vertical-align: top;
+    font-weight: 800;
+    font-size: 14px;
+}
